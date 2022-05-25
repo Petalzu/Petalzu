@@ -5,7 +5,7 @@ I am a student majoring in data science and I will upload my Python project to G
 
 P.S.  
 My avatar is set up by myself: a hard-working, gentle and lovely girl, petal. Like ACG, Toho project and Genshen impact.  
-She can also play a little violin! That's amazing. 😄  
+She can also play a little violin! That's amazing. OvO  
 
 你好！  
 我是Petal。Petalzu是我的名字和我就读的大学简称的拼接。  
@@ -14,7 +14,7 @@ She can also play a little violin! That's amazing. 😄
  
 P.S.  
 我的头像是自设：学习勤奋，温柔可爱的女孩Petal。喜欢ACG, TOHO project和原神。  
-她还会一点小提琴！真是令人惊讶呢。  
+她还会一点小提琴！真是令人惊讶呢。OvO  
 
 
 <!--
