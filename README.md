@@ -1,9 +1,9 @@
 ### Hi there 👋
-+I am a student majoring in data science and I will upload my Python project to GitHub to share with you.I hope to meet like-minded people here.   
-+  
+I am a student majoring in data science and I will upload my Python project to GitHub to share with you.I hope to meet like-minded people here.   
+"Face the fear， create the future" is my motto.I hope it will help you.  
 
-+"Facing fear ,create the future" is my motto.I hope it will help you.  
 你好！我会在学习python的过程中把项目和心得上传，希望对你有帮助。
+"Face the fear, create the future" 是我的座右铭，与诸君共勉。
 
 
 <!--
