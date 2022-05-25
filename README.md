@@ -1,5 +1,5 @@
 ### Hi there 👋
-+I am a student majoring in data science and I will upload my Python project to GitHub to share with you.I hope to meet like-minded people here. We can help each other and achieve each other.
++I am a student majoring in data science and I will upload my Python project to GitHub to share with you.I hope to meet like-minded people here. 
 +
 +"Facing fear ,create the future" is my motto.I hope it will help you.
 <!--
