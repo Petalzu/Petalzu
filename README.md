@@ -1,9 +1,5 @@
 ### Hi there 👋
 
-I am a student majoring in data science and I will upload my Python project to GitHub to share with you.I hope to meet like-minded people here. We can help each other and achieve each other.
-
-"Facing fear ,create the future" is my motto.I hope it will help you.
-
 <!--
 **Petalzu/Petalzu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
