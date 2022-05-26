@@ -1,7 +1,7 @@
 ### Hi there 👋  
 My name is Petal.Petalzu is a combination of my name and the abbreviation of the university I attended.  
 I am a student majoring in data science and I will upload my Python project to GitHub to share with you.  
-"Face the fear， create the future" is my motto.I hope it will help you.  
+"Face the fear, create the future" is my motto.I hope it will help you.  
 
 P.S.  
 My avatar is set up by myself: a hard-working, gentle and lovely girl, petal. Like ACG, Toho project and Genshen impact.  
