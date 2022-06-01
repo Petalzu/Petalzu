@@ -1,10 +1,10 @@
 ## ***Face the fear, create the future.***
 
-University wimp/ ordinary programmer / amateur author  
+University wimp/ Ordinary programmer / Amateur author  
 
 Main development language: Python  
 
-Research direction: machine learning/ program / data processing 
+Research direction: Machine learning/ program / data processing 
 
 Current work: Python application  
 
