@@ -1,4 +1,4 @@
-### Hi there 👋  
+### Hi there
 My name is Petal.Petalzu is a combination of my name and the abbreviation of the university I attended.  
 I am a student majoring in data science and I will upload my Python project to GitHub to share with you.  
 "Face the fear, create the future" is my motto.I hope it will help you.  
