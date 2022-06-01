@@ -2,6 +2,7 @@ import csv
 import os
 import cv2 as cv
 import pandas as pd
+from sklearn.exceptions import DataDimensionalityWarning
 from classself import userchange as user
 
 userFileName = 'D:/VScode/vs project/game/file.csv'
@@ -13,14 +14,12 @@ def read_data(file):  # dataframe构造二元数组
     data = pd.DataFrame(data)
     print(data)
 
-
 def return_csv_list(file):  # csv转化为列表中字典换行输出
     with open(file, 'rt') as csvfile:
         reader = csv.DictReader(csvfile)
         column = [row for row in reader]
     for i in range(len(column)):
         print(column[i], '\n', end='')
-
 
 def write_data(data, file):  # 写入多行数据
     with open(file, 'a', newline='') as f:
@@ -125,6 +124,23 @@ def user_infor():  # 用户信息初始化以及读取用户信息
     except FileNotFoundError:
         print('无法查找到文件！请检查路径')
 
+def skills_read():
+    # No use
+    csv_file = open(skillFileName,'r')
+    dataA = []
+    dataB = []
+
+    # Read off and discard first line, to skip headers
+    csv_file.readline()
+
+    # Split columns while reading
+    for a, b in csv.reader(csv_file, delimiter=','):
+        # Append each variable to a separate list
+        dataA.append(a)
+        dataB.append(b)
+        df = pd.DataFrame(data=[dataA,dataB],
+                columns = ['技能名', '关联属性', '成长系数', '成长属性', '成长值', '记录周期', '总时长'])
+        print(df)
 
 def skills_add():
     skill1 = input('技能名称: ')
@@ -195,7 +211,9 @@ def skills_list():
 
 
 def training_instance():
+    server = input("输入a添加副本，d删除副本，q退出: ")
     name = input('副本名称: ')
+
 
 def task_list():
     pass
@@ -204,6 +222,9 @@ def task_list():
 
 def information_table():
     pass
+
+def test():
+    print('测试用选项')
 
 # 初始界面
 
@@ -233,8 +254,10 @@ def begin():
             information_table()
         elif server1 == '6':
             break
+        elif server1 == '7':
+            test()
         else:
-            continue
+            begin()
 
 begin()
 
