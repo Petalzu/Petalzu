@@ -2,7 +2,7 @@
 
 University wimp/ Ordinary programmer / Amateur author  
 
-Main development language: Python  
+Main development language: Python / Scala  
 
 Research direction: Machine learning/ program / data processing 
 
