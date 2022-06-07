@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <TextField layoutX="860.0" prefHeight="38.0" prefWidth="635.0" promptText="            search in this computer" />
+          <MenuBar prefHeight="24.0" prefWidth="300.0">
+            <menus>
+              <Menu mnemonicParsing="false" text="文件(F)">
+                <items>
+                  <MenuItem mnemonicParsing="false" text="New" />
+                  <MenuItem mnemonicParsing="false" text="Open…" />
+                  <Menu mnemonicParsing="false" text="Open Recent" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Close" />
+                  <MenuItem mnemonicParsing="false" text="Save" />
+                  <MenuItem mnemonicParsing="false" text="Save As…" />
+                  <MenuItem mnemonicParsing="false" text="Revert" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Preferences…" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Quit" />
+                </items>
+              </Menu>
+              <Menu mnemonicParsing="false" text="Edit">
+                <items>
+                  <MenuItem mnemonicParsing="false" text="Undo" />
+                  <MenuItem mnemonicParsing="false" text="Redo" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Cut" />
+                  <MenuItem mnemonicParsing="false" text="Copy" />
+                  <MenuItem mnemonicParsing="false" text="Paste" />
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Select All" />
+                  <MenuItem mnemonicParsing="false" text="Unselect All" />
+                </items>
+              </Menu>
+              <Menu mnemonicParsing="false" text="Help">
+                <items>
+                  <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+                </items>
+              </Menu>
+            </menus>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+          </MenuBar>
+            <Button layoutX="742.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="42.0" text="➡" />
+            <Button layoutX="700.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="42.0" text="⬅" />
+            <Text layoutX="784.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="search:" textAlignment="CENTER" wrappingWidth="84.0" />
+            <Text layoutX="1502.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AllUwant" />
+            <TreeTableView layoutY="621.0" prefHeight="240.0" prefWidth="300.0">
+              <columns>
+                <TreeTableColumn minWidth="150.0" prefWidth="150.0" text="History" />
+                <TreeTableColumn minWidth="150.0" prefWidth="150.0" text="Location" />
+              </columns>
+            </TreeTableView>
+            <TextFlow layoutX="300.0" prefHeight="38.0" prefWidth="400.0" />
+            <SwingNode disable="true" layoutX="256.0" layoutY="217.0" />
+            <TreeView layoutY="38.0" prefHeight="580.0" prefWidth="300.0" />
+      </children>
+    </AnchorPane>
+  </children>
+  <stylesheets>
+    <URL value="@BasicApplication.css" />
+  </stylesheets>
+</VBox>
