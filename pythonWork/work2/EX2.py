@@ -1,4 +1,3 @@
-
 second = input("please enter rhe number of seconds:")
 second = int(second)
 num1 = second % 86400
