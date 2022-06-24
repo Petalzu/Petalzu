@@ -2,11 +2,13 @@
 
 University wimp/ Ordinary programmer / Amateur author  
 
-Main development language: Python / Scala  
+Main development language: Python / Scala / Cpp
 
 Research direction: Machine learning/ program / data processing 
 
 Current work: Python application  
+
+Target: Monster model based on animal behavior AI training.
 
 
 <!--### Hi there
