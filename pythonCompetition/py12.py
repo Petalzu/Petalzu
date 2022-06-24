@@ -1,15 +1,12 @@
-
 a = int(input())
 
 def solution(a):
     i = -1
     b = input()
-    d = []
-    for n in b:
-        d.append(n)
+    d = list(b)
     if a == 1:
         if 'B' not in d:
-            print(i)
+            print(-1)
         if 'B' in d:
             print(1)
     else:
@@ -19,12 +16,12 @@ def solution(a):
             while i<=a:
                 c = []
                 i = i+1
-                if 'B' in d:
+                if 1 in d:
                     for j in range(0,len(d)-1):
                         if d[j] == d[j+1]:
-                            c.append('B')
+                            c.append(1)
                         else:
-                            c.append('R')
+                            c.append(0)
                     d = c
                 else:
                     if len(d)>1:
