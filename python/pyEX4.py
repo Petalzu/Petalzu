@@ -1,5 +1,5 @@
 def search(lists, need):
-    begin = 0 
+    begin = 0
     finish = len(lists) - 1
     while begin <= finish:
         mid = (begin+finish)//2
