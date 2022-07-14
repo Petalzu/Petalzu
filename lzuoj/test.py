@@ -1,28 +1,26 @@
-a = input()
+import numpy as np
+
+a = input().split()
+a[:] = [int(i) for i in a]
 list1 = []
-for i in a:
-    list1.append(i)
-list1[:] = [int(j)*2 for j in list1]
-list1 = list1[::-1]
-def jinwei(list1):
-    for m in range(len(list1)-1):
-        if list1[m] >= 7:
-            list1[m+1] = list1[m+1] + 1
-            list1[m] = list1[m] - 7
-            jinwei(list1)
-        else:
-            pass
-jinwei(list1)
-list1 = list1[::-1]
-if len(list1)==1:
-    list1[0] = (int(list1[0]/7))*10 + list1[0]%7
-else:
-    num = int((list1[0] + int(list1[1]/7))/7)
-    list1[-1] = list1[-1]%7
-    if num != 0:
-        list1.insert(0,num)
-        list1[1] = list1[1]-7
-    else:
-        pass
-list1[:] = [str(n) for n in list1]
-print(''.join(list1))
+list2 = []
+
+def inputarray(num):
+    i = 0
+    while i < num:
+        b = input().split()
+        b[:] = [int(i) for i in b]
+        list1.append(b)
+        i = i+1
+
+def change(lists):
+    lists = np.array(lists)
+    lists = lists.transpose()
+    for j in lists:
+        j = ' '.join(repr(e) for e in j)
+        list2.append(j)
+    list2 = ''.join(list2)
+    print(list2)
+
+inputarray(a[0])
+change(list1)
